@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+
+
+.container {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+#logomeio {
+    margin-top: 50px;
+}
+
+p {
+    width: 90%;
+    margin: 20% auto;
+    padding: 15px;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu {
+    background-color: white;
+    width: 100px;
+    padding: 18px;
+    border-radius: 0 8px 8px 0;
+    position: fixed;
+    top: 78px;
+    left: -80px;
+}
+
+.menu:hover {
+    left: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img2 {
+    width: 60px;
+    height: 50px;
+}
+
+button {
+    border: none;
+    background-color: black;
+}
+
+footer {
+    background-color: white;
+    width: 70px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
